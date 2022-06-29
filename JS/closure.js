@@ -1,6 +1,6 @@
 //function bundled along with the lexical scope is closure
 //lexical scope is local memory and lexical environment
-
+//function which has its access to its outer lexical environment
 
 function x(){
     var a=7;
