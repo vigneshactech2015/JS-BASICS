@@ -40,6 +40,18 @@ var arr=[1,2,3,4];
      return accumulator+element},100)
  console.log(res);*/
 
+//example for finding max number using reduce
+
+const arr=[5,1,3,2,6];
+
+const output=arr.reduce(function(max,curr){
+  if(curr>max){
+    max=curr;
+  }
+  return max
+},0);
+
+console.log(output);
 
  //example 4
 
